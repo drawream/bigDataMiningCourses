@@ -1,0 +1,15 @@
+# 数据仓库与数据挖掘 实验五 段晶晶 2020.4.23
+
+setwd("C:\\Users\\Jayce\\Documents\\RStudioWorkspace\\sjwj05")
+getwd()
+
+
+
+(1). 根据需要设置工作空间，使用read.csv()函数读入数据"Iris.csv"。
+(2). 将数据按“Species”（种类）列，分为三类数据，依次为Iris Setosa（山鸢尾）、Iris Versicolour（杂色鸢尾），以及Iris Virginica（维吉尼亚鸢尾），并保存到irisSetosa, irisVersicolour, irisVirginica三个变量中。（提示：irisSetosa = subset(iris, iris$Species == "Iris-setosa")）
+(3). 使用View()函数查看“irisVersicolour”。
+(4). 使用table()函数查看数据中杂色鸢尾的花瓣宽度（PetalWidthCm）分布。可知数据中杂色鸢尾的花瓣宽度，有1，1.1，1.2，1.3，1.4，1.5，1.6，1.7，1.8（单位为厘米）九类，每类有不同条数的数据，例如花瓣宽度为1.4，有7条数据。（提示：table(irisVersicolour$PetalWidthCm)）
+(5). 计算当花瓣宽度分别为1、1.1、1.2、1.3、1.5、1.6、1.7、1.8，对应的花瓣长度的平均值。并填写表格（见“四、实验结果”）。
+（提示： ）
+(6). 使用拉格朗日插值法，结合上步得到的表格，计算当花瓣宽度为1.4时，计算得到的花瓣长度结果。（拉格朗日插值法的操作可参考课件代码、自行查阅网络资源；拉格朗日插值法原理，可参考以下网址的范例部分，进行理解https://www.cnblogs.com/ECJTUACM-873284962/p/6833391.html）
+(7). 查看irisVersicolour的原数据，当花瓣宽度为1.4时，花瓣长度如何，并计算花瓣长度的平均值，与插值结果比较。

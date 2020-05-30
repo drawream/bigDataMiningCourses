@@ -1,0 +1,6 @@
+(1). 根据需要设置工作空间。
+(2). 使用read.csv()函数读入数据“Iris.csv”。
+(3). 把工作空间的建模数据随机分成两部分，一部分用于训练（trainData占总数据80%），另一部分用于测试（testData占总数据20%）。
+(4). 使用nnet包里的nnet()函数以及训练数据构建神经网络模型，使用predict函数和构建的神经网络模型分别对训练数据和测试数据进行分类。（使用四个属性求和，作为分类的自变量。隐藏层设置为10，权值衰减参数设为0.05）
+提示：nnet.model <- nnet(Species ~ SepalLengthCm + SepalWidthCm + PetalLengthCm + PetalWidthCm, trainData, size = 10, decay = 0.05)
+(5). 使用混淆矩阵并计算准确率。
