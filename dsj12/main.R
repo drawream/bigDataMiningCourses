@@ -15,7 +15,7 @@ library(e1071) # naiveBayes() 朴素贝叶斯分类法
 library(randomForest) # randomForest() 随机森林模型
 library(pROC) # roc()
 library(Rmisc) # multiplot() 分割绘图区域
-install.packages("klaR")
+#install.packages("klaR")
 library(klaR)
 # 导入员工离职数据，并进行描述性分析
 hr <- read.csv("./HR_comma_sep.csv") # 导入数据
