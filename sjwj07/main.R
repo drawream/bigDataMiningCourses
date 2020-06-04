@@ -1,4 +1,5 @@
-# 数据仓库与数据挖掘 实验7 段晶晶 2020.5.21
+
+# 数据仓库与数据挖掘 实验7 段晶晶 2020.5.21 
 
 # (1).根据需要设置工作空间
 setwd("C:\\Users\\Jayce\\Documents\\RStudioWorkspace\\sjwj07")

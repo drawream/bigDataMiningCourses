@@ -39,7 +39,8 @@ write.csv(disdata,file="processedfile.csv",quote=F,row.names=F)
 setwd("C:\\Users\\Jayce\\Documents\\RStudioWorkspace\\sjwj04")
 
 data=read.csv("processedfile.csv",header=T)
-View(data)install.packages("Matrix")
+View(data)
+# install.packages("Matrix")
 # 安装、导入必要的R包（Matrix包、arules包）
 install.packages("Matrix")
 install.packages("arules")
